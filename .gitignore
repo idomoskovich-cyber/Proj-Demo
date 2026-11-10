@@ -1,0 +1,10 @@
+# Credentials and runtime artifacts stay in the managed cloud environment.
+server-access/cache/
+server-access/ssh/*
+!server-access/ssh/id_ed25519.pub
+**/id_ed25519
+**/id_rsa
+**/id_ecdsa
+**/known_hosts
+.env
+.env.*
